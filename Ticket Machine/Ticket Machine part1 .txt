@@ -1,0 +1,72 @@
+TicketMachine ticketMa1 = new TicketMachine();
+ticketMa1.HighWycombe();
+ticketMa1.insert50();
+ticketMa1.displayBalance();
+Balance50
+ticketMa1.displayBalance();
+Balance50
+ticketMa1.getBalance()
+    returned int 50
+ticketMa1.insert100();
+ticketMa1.insert200();
+ticketMa1.displayBalance();
+Balance350
+ticketMa1.refundBalance()
+    returned int 350
+ticketMa1.printTicket();
+##################
+# The BlueJ Line
+# Ticket
+# 0 Pence.
+##################
+
+ticketMa1.insert200();
+ticketMa1.insert200();
+ticketMa1.printTicket();
+##################
+# The BlueJ Line
+# Ticket
+# 0 Pence.
+##################
+
+TicketMachine ticketMa1 = new TicketMachine();
+ticketMa1.addAylesbury();
+ticketMa1.insert200();
+cash in200
+Balance200
+ticketMa1.insert200();
+cash in200
+Balance400
+ticketMa1.printTicket();
+##################
+# The BlueJ Line
+# Ticket
+# 0 Pence.
+##################
+
+TicketMachine ticketMa1 = new TicketMachine();
+ticketMa1.addAmersham();
+ticketMa1.getBalance()
+    returned int 0
+ticketMa1.getPrice()
+    returned int 300
+ticketMa1.insert200();
+cash in200
+Balance200
+ticketMa1.insert100();
+cash in100
+Balance300
+ticketMa1.printTicket();
+##################
+# The BlueJ Line
+# Ticket
+# 300 Pence.
+##################
+
+ticketMa1.insert100();
+cash in100
+Balance100
+ticketMa1.getBalance()
+    returned int 100
+ticketMa1.refundBalance()
+    returned int 100
