@@ -1,0 +1,17 @@
+Course course1 = new Course("Computing", "G400");
+student3.addCourse(course1);
+student3.print();
+Donald Duck, student ID: 11000123, credits: 20
+course Computing ID G400
+course1.print();
+course Computing ID G400
+student2.addCourse(course1);
+student1.addCourse(course1);
+student1.print();
+Mortimer Mouse, student ID: 11003344, credits: 20
+course Computing ID G400
+student2.print();
+Minnie Mouse, student ID: 110003322, credits: 20
+course Computing ID G400
+course1.print();
+course Computing ID G400
