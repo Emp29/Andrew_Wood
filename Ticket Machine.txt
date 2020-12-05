@@ -1,0 +1,57 @@
+TicketMachine ticketMa1 = new TicketMachine();
+Hello and welcome to your virtual Ticket Machine
+ticketMa1.addAylesbury();
+You have selected Aylesbury. 
+ticketMa1.getPrice()
+    returned int 220
+ticketMa1.insertCoin(Coin.P200);
+cash in200
+Balance200
+ticketMa1.printTicket();
+You must insert at least: 20 more pence.
+ticketMa1.insertCoin(Coin.P20);
+cash in20
+Balance220
+ticketMa1.printTicket();
+##################
+# The BlueJ Line
+# currentTicket
+# 220 Pence.
+##################
+
+ticketMa1.addAmersham();
+You have selected Amersham. 
+ticketMa1.getPrice()
+    returned int 300
+ticketMa1.insertCoin(Coin.P200);
+cash in200
+Balance200
+ticketMa1.insertCoin(Coin.P100);
+cash in100
+Balance300
+ticketMa1.printTicket();
+##################
+# The BlueJ Line
+# currentTicket
+# 300 Pence.
+##################
+
+ticketMa1.addHighWycombe();
+You have selected HighWycombe. 
+ticketMa1.getPrice()
+    returned int 330
+ticketMa1.insertCoin(Coin.P200);
+cash in200
+Balance200
+ticketMa1.insertCoin(Coin.P200);
+cash in200
+Balance400
+ticketMa1.printTicket();
+##################
+# The BlueJ Line
+# currentTicket
+# 330 Pence.
+##################
+
+ticketMa1.refundBalance()
+    returned int 70
