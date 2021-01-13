@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Course
+comment0.text=\r\n\ This\ class\ stores\ information\ about\ a\ course\r\n\ that\ enrolled\ students\ may\ want\ to\ complete\r\n\r\n\ @author\ Andrew\ Wood\r\n\ @version\ (0.1)\r\n
+comment1.params=codeNo\ title
+comment1.target=Course(java.lang.String,\ java.lang.String)
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ Course\r\n
+comment2.params=
+comment2.target=void\ printModules()
+comment2.text=\r\n\ Print\ out\ all\ the\ module's\ that\ exist\ in\ this\ course\r\n
+comment3.params=
+comment3.target=void\ printGrade()
+comment4.params=
+comment4.target=void\ print()
+comment4.text=\r\n\ Prints\ out\ the\ details\ of\ a\ course\r\n
+comment5.params=module
+comment5.target=void\ addMark(Module)
+comment6.params=number\ module
+comment6.target=void\ addModule(int,\ Module)
+comment6.text=\r\n\ Add\ module\ 1\ to\ 4\ to\ the\ Course\r\n
+comment7.params=
+comment7.target=java.lang.String\ calculateGrade()
+numComments=8

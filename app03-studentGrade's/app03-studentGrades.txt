@@ -1,0 +1,28 @@
+Student student1 = new Student("Andrew Wood", "0001");
+Course course1 = new Course("Computing", "G401");
+student1.enrolOnCourse(course1);
+You have enrolled onto this course
+Module module1 = new Module("C0454", "Digital Technologys");
+Module module2 = new Module("C0452", "Programing Concepts");
+Module module3 = new Module("C0456", "Web Developmet");
+Module module4 = new Module("C0450", "Computer Architecture");
+module1.awardMark(96);
+module2.isComplete()
+    returned boolean false
+module2.awardMark(77);
+module3.awardMark(89);
+module4.awardMark(67);
+course1.printGrade();
+course1.addModule(1, module1);
+course1.addModule(2, module2);
+course1.addModule(3, module3);
+course1.addModule(4, module4);
+course1.print();
+Course Computing - G401
+
+	Module C0454 Digital Technologys mark = 96
+	Module C0452 Programing Concepts mark = 77
+	Module C0456 Web Developmet mark = 89
+	Module C0450 Computer Architecture mark = 67
+course1.printGrade();
+Your final mark is 82 your final grade is A
